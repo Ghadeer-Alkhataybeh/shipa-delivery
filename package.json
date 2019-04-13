@@ -1,0 +1,23 @@
+{
+  "name": "shipa-delivery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ghadeer-Alkhataybeh/shipa-delivery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ghadeer-Alkhataybeh/shipa-delivery/issues"
+  },
+  "homepage": "https://github.com/Ghadeer-Alkhataybeh/shipa-delivery#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
