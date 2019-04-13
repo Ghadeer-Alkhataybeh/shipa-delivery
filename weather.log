@@ -1,4 +1,20 @@
-{ time: '2019-04-14 0:26',
+{ time: '2019-04-14 1:13',
+  celsiusTemp: 22,
+  weatherStatus: 'Partly cloudy',
+  windSpeed: 9 }
+{ time: '2019-04-14 1:13',
+  celsiusTemp: 22,
+  weatherStatus: 'Partly cloudy',
+  windSpeed: 9 }
+{ time: '2019-04-14 1:13',
+  celsiusTemp: 22,
+  weatherStatus: 'Partly cloudy',
+  windSpeed: 9 }
+{ time: '2019-04-14 1:13',
+  celsiusTemp: 22,
+  weatherStatus: 'Partly cloudy',
+  windSpeed: 9 }
+{ time: '2019-04-14 1:13',
   celsiusTemp: 22,
   weatherStatus: 'Partly cloudy',
   windSpeed: 9 }

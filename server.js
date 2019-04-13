@@ -45,23 +45,26 @@ app.get("/", (req, res) => {
       };
       res.send(weath);
       weather(weath);
-      // Query to insert the weather information
-      let query = `insert into weather values
-          (null,\"${weath.time}\",\"${weath.weatherStatus}\",\"${
-        weath.celsiusTemp
-      }\",\"${weath.windSpeed}\")`;
+      // // Query to insert the weather information
+      // let query = `insert into weather values
+      //     (null,\"${weath.time}\",\"${weath.weatherStatus}\",\"${
+      //   weath.celsiusTemp
+      // }\",\"${weath.windSpeed}\")`;
 
-      // insert weather information to the database
-      dbConnection.db.query(query, function(err, result) {
-        if (result) {
-          res.send("Saved");
-        } else {
-          res.send("Error");
-        }
-      });
-      console.log(weath);
+      // // insert weather information to the database
+      // dbConnection.db.query(query, function(err, result) {
+      //   if (result) {
+      //     res.send("Saved");
+      //   } else {
+      //     res.send("Error");
+      //   }
+      // });
+      //   console.log(weath);
     })
-    .then(() => console.log("Saved"))
+    .then(() => {
+      console.log("Process finished, waiting 5 minutes till the next update");
+    })
+
     .catch(err => console.log(err));
 });
 
